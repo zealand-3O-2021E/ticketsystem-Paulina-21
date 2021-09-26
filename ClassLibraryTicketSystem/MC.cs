@@ -6,22 +6,19 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem
 {
-    public class MC
+    /// <summary>
+    /// MC is inheriting the Car class, and overrides it with it's unique specifications. For more info and to understand this class better, check the Car class
+    /// </summary>
+    public class MC : Car
     {
-        public string Licenseplate { get; set; }
-       
-        public DateTime Date { get; set; }
-
-        public double Price()
-        {
-            return 125;
-            //The price is fixed at 125kr which must be returned
-        }
-
-        public string Vehicle()
+        public override string VehicleType()
         {
             return "MC";
-            //which returns the string "MC"
+        }
+
+        public override double Price()
+        {
+            return 125;
         }
     }
 }

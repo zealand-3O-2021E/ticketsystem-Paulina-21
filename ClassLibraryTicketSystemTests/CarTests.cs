@@ -8,23 +8,25 @@ using System.Threading.Tasks;
 
 namespace ClassLibraryTicketSystem.Tests
 {
+    // Reminder: Try Niko style Testing !!!
+
     [TestClass()]
     public class CarTests
     {
         [TestMethod()]
-        public void PriceTest()
+        public void PriceMethodTest()
         {
-            Car c=new Car();
-            double expected = 240;
+            Car c = new MC();
+            double expected = 125;
 
             Assert.AreEqual(expected,c.Price());
         }
 
         [TestMethod()]
-        public void VehicleTypeTest()
+        public void VehicleTypeMethodTest()
         {
-            Car c = new Car();
-            string expected = "Car";
+            Car c = new MC();
+            string expected = "MC";
             Assert.AreEqual(expected,c.VehicleType());
         }
     }

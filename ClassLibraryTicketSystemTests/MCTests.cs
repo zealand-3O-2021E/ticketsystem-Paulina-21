@@ -25,7 +25,7 @@ namespace ClassLibraryTicketSystem.Tests
         {
             MC c = new MC();
             string expected = "MC";
-            Assert.AreEqual(expected, c.Vehicle());
+            Assert.AreEqual(expected, c.VehicleType());
         }
     }
 }
