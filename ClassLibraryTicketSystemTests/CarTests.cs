@@ -13,8 +13,18 @@ namespace ClassLibraryTicketSystem.Tests
     [TestClass()]
     public class CarTests
     {
+        [DataTestMethod]
+        [DataRow("ABC123DEF")]
+        [DataRow("")]
+        public void LicensePlate_ThrowsException_Test(string licensePlate)
+        {
+            Car c = new MC();
+
+            Assert.ThrowsException<ArgumentException>(() => c.Licenseplate= licensePlate);
+        }
+
         [TestMethod()]
-        public void PriceMethodTest()
+        public void PriceMethod_Test()
         {
             Car c = new MC();
             double expected = 125;
@@ -23,7 +33,7 @@ namespace ClassLibraryTicketSystem.Tests
         }
 
         [TestMethod()]
-        public void VehicleTypeMethodTest()
+        public void VehicleTypeMethod_Test()
         {
             Car c = new MC();
             string expected = "MC";
