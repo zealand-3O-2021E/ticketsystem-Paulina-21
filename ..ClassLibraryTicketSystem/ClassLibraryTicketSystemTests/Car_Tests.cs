@@ -9,13 +9,13 @@ using System.Threading.Tasks;
 namespace ClassLibraryTicketSystem.Tests
 {
     [TestClass()]
-    public class MCTests
+    public class Car_Tests
     {
         [TestMethod()]
         public void PriceTest()
         {
-            MC c = new MC();
-            double expected = 125;
+           Vehicle c = new Car();
+            double expected = 240;
 
             Assert.AreEqual(expected, c.Price());
         }
@@ -23,8 +23,8 @@ namespace ClassLibraryTicketSystem.Tests
         [TestMethod()]
         public void VehicleTest()
         {
-            MC c = new MC();
-            string expected = "MC";
+            Vehicle c = new Car();
+            string expected = "Car";
             Assert.AreEqual(expected, c.VehicleType());
         }
     }

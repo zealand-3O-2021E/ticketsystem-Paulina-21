@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ClassLibraryTicketSystem</name>
+    </assembly>
+    <members>
+        <!-- Badly formed XML comment ignored for member "T:ClassLibraryTicketSystem.Car" -->
+        <member name="P:ClassLibraryTicketSystem.Car.DefaultPrice">
+            <summary>
+            Property which stores the default Price, before any discounts
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Car.Licenseplate">
+            <summary>
+            Property which stores the License plate number, string
+            </summary>
+        </member>
+        <member name="P:ClassLibraryTicketSystem.Car.Date">
+            <summary>
+            Property which stores a Date, type DateTime
+            </summary>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.Price">
+            <summary>
+            Method returning the price (double) of the Car, default 240. It's virtual because it can be override in kid classes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ClassLibraryTicketSystem.Car.VehicleType">
+            <summary>
+            Method returning the Vehicle Type (string), default "Car". Virtual because it can be override in kid classes
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:ClassLibraryTicketSystem.MC">
+            <summary>
+            MC is inheriting the Car class, and overrides it with it's unique specifications. For more info and to understand this class better, check the Car class
+            </summary>
+        </member>
+    </members>
+</doc>
