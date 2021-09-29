@@ -9,7 +9,7 @@ namespace StoreBaeltTicketLibrary
         {
             if (v.GetType() == typeof(Car))
             {
-                if (v.Date.DayOfWeek == DayOfWeek.Sunday || v.Date.DayOfWeek == DayOfWeek.Saturday || v.Date.DayOfWeek == DayOfWeek.Monday)
+                if (v.Date.DayOfWeek == DayOfWeek.Sunday || v.Date.DayOfWeek == DayOfWeek.Saturday)
                 {
                     v.DefaultPrice *= 0.8;
                     return v.Price();

@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ClassLibraryTicketSystem\ClassLibraryTicketSystem.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="ClassLibraryTicketSystem">
+      <HintPath>..\ClassLibraryTicketSystem\bin\Debug\net5.0\ClassLibraryTicketSystem.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

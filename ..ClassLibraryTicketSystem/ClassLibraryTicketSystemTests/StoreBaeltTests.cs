@@ -13,14 +13,20 @@ namespace StoreBaeltTicketLibrary.Tests
     public class StoreBaeltTests
     {
         [TestMethod()]
-        public void StoreBaeltTest()
+        public void StoreBaeltTest_Weekend()
         {
             Vehicle v=new Car();
             v.Brobizz = false;
             v.Date=DateTime.Today;
-
             double expected = 240;
-            expected *= 0.8;
+
+            if (v.Date.DayOfWeek == DayOfWeek.Saturday || v.Date.DayOfWeek == DayOfWeek.Sunday)
+            {
+                
+                expected *= 0.8;
+            }
+
+            
 
             StoreBaelt s = new StoreBaelt();
         
