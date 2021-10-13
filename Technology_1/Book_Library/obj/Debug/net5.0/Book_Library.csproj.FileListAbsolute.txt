@@ -1,0 +1,13 @@
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.csproj.AssemblyReference.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.AssemblyInfoInputs.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.AssemblyInfo.cs
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.csproj.CoreCompileInputs.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\bin\Debug\net5.0\Book_Library.deps.json
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\bin\Debug\net5.0\Book_Library.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\bin\Debug\net5.0\ref\Book_Library.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\bin\Debug\net5.0\Book_Library.pdb
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\bin\Debug\net5.0\Book_Library.xml
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\ref\Book_Library.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Technology_1\Book_Library\obj\Debug\net5.0\Book_Library.pdb
