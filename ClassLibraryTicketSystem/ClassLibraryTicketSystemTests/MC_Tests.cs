@@ -27,8 +27,10 @@ namespace ClassLibraryTicketSystem.Tests
         [TestMethod()]
         public void PriceMethod_BroBizz_Test()
         {
-            Vehicle c = new MC();
-            c.Brobizz = true;
+            Vehicle c = new MC
+            {
+                Brobizz = true
+            };
             double expected = 95;
             expected *= 125;
             expected /= 100;

@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "WtVUMXZ0/UPKTyUcW6iPFCqqUN4Szg+7os//SVGF05MBrZyPPPv2v7thCGet80HGHIi5wu9r6mBIs0sAo6Eqxw==",
+  "success": true,
+  "projectFilePath": "D:\\Zealand\\SEMESTERS\\3RD SEMESTER\\.Projects\\Mock Exam_1\\FoodWebApi\\FoodWebApi.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\5.6.3\\swashbuckle.aspnetcore.swaggergen.5.6.3.nupkg.sha512",
+    "C:\\Users\\Curca Paula Catalina\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\5.6.3\\swashbuckle.aspnetcore.swaggerui.5.6.3.nupkg.sha512"
+  ],
+  "logs": []
+}

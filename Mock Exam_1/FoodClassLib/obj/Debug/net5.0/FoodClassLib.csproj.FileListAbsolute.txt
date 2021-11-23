@@ -1,0 +1,12 @@
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\bin\Debug\net5.0\FoodClassLib.deps.json
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\bin\Debug\net5.0\FoodClassLib.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\bin\Debug\net5.0\ref\FoodClassLib.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\bin\Debug\net5.0\FoodClassLib.pdb
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.csproj.AssemblyReference.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.GeneratedMSBuildEditorConfig.editorconfig
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.AssemblyInfoInputs.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.AssemblyInfo.cs
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.csproj.CoreCompileInputs.cache
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\ref\FoodClassLib.dll
+D:\Zealand\SEMESTERS\3RD SEMESTER\.Projects\Mock Exam_1\FoodClassLib\obj\Debug\net5.0\FoodClassLib.pdb

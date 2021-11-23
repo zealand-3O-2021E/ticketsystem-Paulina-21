@@ -21,10 +21,10 @@ namespace OresundBron.Tests
 
             double expected = 161;
 
-            OresundBron s = new OresundBron();
+            OresundCar s = new OresundCar(v);
 
 
-            Assert.AreEqual(expected, s.VehicleDiscountedPrice(v));
+            Assert.AreEqual(expected, s.Price());
         }
 
         [TestMethod()]
@@ -35,10 +35,10 @@ namespace OresundBron.Tests
 
             double expected = 73;
 
-            OresundBron s = new OresundBron();
+            OresundMC s = new OresundMC(v);
 
 
-            Assert.AreEqual(expected, s.VehicleDiscountedPrice(v));
+            Assert.AreEqual(expected, s.Price());
         }
 
         [TestMethod()]
@@ -47,9 +47,9 @@ namespace OresundBron.Tests
             Vehicle c = new Car();
             string expected = "Oresund Car";
 
-            OresundBron s = new OresundBron();
+            OresundCar s = new OresundCar(c);
 
-            Assert.AreEqual(expected, s.VehicleType(c));
+            Assert.AreEqual(expected, s.VehicleType());
         }
 
         [TestMethod()]
@@ -58,9 +58,9 @@ namespace OresundBron.Tests
             Vehicle c = new MC();
             string expected = "Oresund MC";
 
-            OresundBron s = new OresundBron();
+            OresundMC s = new OresundMC(c);
 
-            Assert.AreEqual(expected, s.VehicleType(c));
+            Assert.AreEqual(expected, s.VehicleType());
         }
     }
 }

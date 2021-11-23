@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Food Managing System</title>
+    <link rel="stylesheet" href="./assets/styles.css" />
+    <script src="https://unpkg.com/vue@next"></script>
+</head>
+
+<body>
+    <div class="nav-bar"></div>
+    <h1>Food Stock Information</h1>
+
+    <div id="app">
+        <div v-show="!action.deleted">
+            <h2>List of food products in stock</h2>
+                    <li v-for="(item, index) in items" :key="index">{{ item.Name }}has {{ item.InStock }}items in stock. Low Stock Level is {{item.LowLevel}}
+                <button class="button" type="button" @click="deleteFoods">Delete all!</button>
+        </div>
+
+        <div v-show="action.deleted">
+            <h2 class="row">
+                You deleted the data!
+            </h2>
+            <h2 class="row">
+                No food Items in stock!
+            </h2>
+        </div>
+    </div>
+
+    <script src="./index.js"></script>
+    <script>
+        app.mount('#app');
+    </script>
+</body>
+
+</html>

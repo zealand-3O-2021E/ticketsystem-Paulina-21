@@ -46,7 +46,7 @@
             Vehicle Class Object with Licenseplate and Date Properties and Price and VehicleType methods
             </summary>
         </member>
-        <member name="F:ClassLibraryTicketSystem.Vehicle.Brobizz">
+        <member name="P:ClassLibraryTicketSystem.Vehicle.Brobizz">
             <summary>
             Value indicating if the Brobizz is used.
             Default false
@@ -80,7 +80,7 @@
         </member>
         <member name="M:ClassLibraryTicketSystem.Vehicle.VehicleType">
             <summary>
-            Method returning the Vehicle Type (string), default "Car". Virtual because it can be override in kid classes
+            Method returning the Vehicle Type (string), default "Vehicle". Virtual because it can be override in kid classes
             </summary>
             <returns></returns>
         </member>

@@ -5,6 +5,9 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Reference Include="Book_Library">
+      <HintPath>..\..\Technology_1\Book_Library\bin\Debug\net5.0\ref\Book_Library.dll</HintPath>
+    </Reference>
     <Reference Include="ClassLibraryTicketSystem">
       <HintPath>..\ClassLibraryTicketSystem\bin\Debug\net5.0\ClassLibraryTicketSystem.dll</HintPath>
     </Reference>

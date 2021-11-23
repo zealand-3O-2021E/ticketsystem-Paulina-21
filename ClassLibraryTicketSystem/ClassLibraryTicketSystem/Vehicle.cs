@@ -16,11 +16,15 @@ namespace ClassLibraryTicketSystem
         /// </summary>
         private string _license;
 
-            /// <summary>
-            /// Value indicating if the Brobizz is used.
-            /// Default false
-            /// </summary>
-            public bool Brobizz = false;
+        /// <summary>
+        /// Value indicating if the Brobizz is used.
+        /// Default false
+        /// </summary>
+        public bool Brobizz
+        {
+            get { return false;}
+            set{}
+        }
 
             /// <summary>
             /// This is a constructor
@@ -33,7 +37,7 @@ namespace ClassLibraryTicketSystem
             /// <summary>
             /// Property which stores the default Price, before any discounts
             /// </summary>
-            public double DefaultPrice { get; set; }
+            public virtual double DefaultPrice { get; set; }
 
             /// <summary>
             /// Property which stores the License plate number, string
@@ -60,7 +64,7 @@ namespace ClassLibraryTicketSystem
             /// Method returning the price (double) of the Car, default 240. It's virtual because it can be override in kid classes
             /// </summary>
             /// <returns></returns>
-            public double Price()
+            public virtual double Price()
             {
                 double _price = DefaultPrice;
                 if (Brobizz)
@@ -69,16 +73,16 @@ namespace ClassLibraryTicketSystem
                     _price *= 95;
                     return _price;
                 }
-                else return DefaultPrice;
+                return DefaultPrice;
             }
 
             /// <summary>
-            /// Method returning the Vehicle Type (string), default "Car". Virtual because it can be override in kid classes
+            /// Method returning the Vehicle Type (string), default "Vehicle". Virtual because it can be override in kid classes
             /// </summary>
             /// <returns></returns>
             public virtual string VehicleType()
             {
-                return "Vehicle"; //which returns the string "Car"
+                return "Vehicle"; //which returns the string "Vehicle"
 
             }
         }
